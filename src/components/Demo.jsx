@@ -34,9 +34,11 @@ const Demo = () => {
             const updatedAllArticles = [newArticle, ...allArticles];
 
             setArticle(newArticle);
-            setAllArticles(updatedAllArticles);
+            // setAllArticles(updatedAllArticles);
 
-            localStorage.setItem('articles', JSON.stringify(updatedAllArticles));
+            // localStorage.setItem('articles', JSON.stringify(updatedAllArticles));
+
+            console.log(newArticle);
         }
     }
   return (
